@@ -1,14 +1,12 @@
 """
-Cette question s'accompagne d'un dossier "handmade_research" qui contient toutes les traces de recherche que j'ai pu faire sur le sujet dans la partie mathématique du problème.
-Elle indique mes schémas et quelques pensées/écrits mathématiques qui essayent de répondre à la problématique.
+Cette question s'accompagne d'un dossier `exercise/handmade_research` qui contient toutes les traces de recherche que j'ai pu faire sur le sujet dans la partie mathématique du problème.
+Ce PDF indique mes schémas et quelques pensées/écrits mathématiques qui essayent de répondre à la problématique via différentes approches.
 
-Concernant le code ci-dessous, je considère l'utilisation de la dernière solution visible dans le pdf `handmade_research/maths_by_hand.pdf` qui me semble être la plus pertinente.
+Concernant le code ci-dessous, je considère l'utilisation de la dernière solution visible dans le pdf `exercise/handmade_research/maths_by_hand.pdf` qui me semble être la plus pertinente.
 
 """
 
-from exercise.utils.utils import (
-    compute_intermediate_factor_for_monthly_rate_and_duration,
-)
+from exercise.utils.utils import compute_intermediate_factor_for_monthly_rate_and_duration
 
 
 def ratio(taux1: float, duree1: float, taux2: float, duree2: float) -> float:

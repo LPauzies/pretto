@@ -45,7 +45,8 @@ def find_best_combinations_for_the_smaller_interests(
 ) -> List[Tuple[DurationRate, DurationRate]]:
     """Find the best combinations of duration rate objects that provide the smaller interests
 
-    NB: This method is using itertools.combinations which is built-in
+    NB: This method is using itertools.combinations which is a built-in function that creates combinations of k among n values.
+    In our case we use it with k = 2 and n the rate grid.
 
     Args:
         rate_grid (List[DurationRate]): The list of DurationRate objects
@@ -75,6 +76,5 @@ def find_best_combinations_for_the_smaller_interests(
                 (short_line_duration_rate, long_line_duration_rate)
             )
     return combinations_with_smaller_interests
-
 
 print(find_best_combinations_for_the_smaller_interests(GIVEN_RATE_GRID))
