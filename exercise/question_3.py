@@ -49,7 +49,7 @@ def find_best_combinations_for_the_smaller_interests(
     In our case we use it with k = 2 and n the rate grid.
 
     Args:
-        rate_grid (List[DurationRate]): The list of DurationRate objects
+        rate_grid (List[DurationRate]): The list of DurationRate objects sorted by duration ascending
 
     Returns:
         List[Tuple[DurationRate, DurationRate]]: The list containing the couples of DurationRate objects that have the smaller interests.
