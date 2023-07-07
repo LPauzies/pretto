@@ -1,6 +1,11 @@
 """
 Cette question s'accompagne d'un dossier `exercise/handmade_research` qui contient toutes les traces de recherche que j'ai pu faire sur le sujet dans la partie mathématique du problème.
 Ce PDF indique mes schémas et quelques pensées/écrits mathématiques qui essayent de répondre à la problématique via différentes approches.
+Vous trouverez 4 approches distinctes:
+- Une première très naïve
+- Une seconde plus mathématique
+- Une troisième algorithmique et géométrique
+- Une quatrième purement algorithmique
 
 Concernant le code ci-dessous, je considère l'utilisation de la dernière solution visible dans le pdf `exercise/handmade_research/maths_by_hand.pdf` qui me semble être la plus pertinente.
 
